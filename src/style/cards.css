@@ -1,0 +1,92 @@
+.container-card {
+  width: 320px;
+  height: 100%;
+  background-repeat: no-repeat !important;
+  background-position-x: 95% !important;
+  background-size: 80px !important;
+  border-radius: 15px 15px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.container-card div {
+  background-color: #1d204b;
+  height: 80%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.container-card div header {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  align-items: flex-end;
+  margin: 0 auto;
+}
+
+.container-card div section {
+  width: 75%;
+  padding: 20px 0 0 40px;
+}
+.container-card div section h1 {
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.container-card div footer {
+  width: 75%;
+  padding: 5px 0 0 40px;
+}
+
+.container-card div footer span {
+  color: #a7abdc;
+  font-weight: bold;
+}
+
+.points__other {
+  width: fit-content;
+  font-size: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+  main {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+  }
+
+  .container-card div header {
+    padding: 20px;
+  }
+
+  main section {
+    padding: 0 !important;
+  }
+
+  main section h1 {
+    font-size: 32px !important;
+  }
+
+  main footer {
+    padding: 0 !important;
+    align-content: center;
+  }
+
+  main footer span {
+    font-size: 12px;
+  }
+
+  .container-card {
+    height: 100%;
+  }
+}
